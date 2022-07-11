@@ -8,5 +8,8 @@
     </head>
     <body>
         <h1>Hello</h1>
+        @foreach ($keywords as $keyword)
+            <p>{{$keyword->name}}</p>
+        @endforeach
     </body>
 </html>
